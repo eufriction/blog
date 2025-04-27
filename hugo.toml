@@ -1,0 +1,31 @@
+baseURL = 'https://blog.eufriction.com/'
+languageCode = 'en-us'
+title = 'eufriction.'
+
+theme = 'dario'
+
+[caches]
+[caches.images]
+dir = ':cacheDir/images'
+
+[params]
+author = 'Martin Lindberg'
+description = 'This blog is my attempt for a process that helps me clear my thinking around various topics.'
+
+[params.homeInfoParams]
+Content = """
+The quote below made an impression on me partly because it's humorous, and partly because I agree from empirical studies where I was the subject.
+
+> _Writing is nature's way of letting you know how sloppy your thinking is._
+>
+> — Richard Guindon
+
+ Another quote that resonates are the one from Leslie Lamport.
+
+> _If you’re thinking without writing, you only think you’re thinking._
+>
+> — Leslie Lamport
+
+This blog is my attempt for a process that helps me clear my thinking around various topics.
+"""
+Description = 'This blog is my attempt for a process that helps me clear my thinking around various topics.'
